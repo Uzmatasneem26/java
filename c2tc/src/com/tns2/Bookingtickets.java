@@ -3,7 +3,7 @@ import java.util.*;
 public class Bookingtickets {
 	 private static int totalTickets;
 	 
-	   void bookTickets() {
+	  static void bookTickets() {
 	        System.out.print("Enter your name: ");
 	        Scanner sc = new Scanner(System.in);
 	        String name = sc.next();
@@ -19,7 +19,7 @@ public class Bookingtickets {
 	            System.out.println("not Available");
 	        }
 	    }
-	     void checkAvailableTickets() {
+	     static void checkAvailableTickets() {
 	        System.out.println("Available tickets: " + totalTickets);
 	    }
 	}
